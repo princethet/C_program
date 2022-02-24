@@ -1,10 +1,10 @@
-/*
+
 #include<stdio.h>
 #include<conio.h>
 void main()
 {
     int i=3, *x;
-    float j=1.5, *y;
+    int j=15, *y;
     char k='c', *z;
 
     printf("\nValue of i = %d",i);
@@ -13,6 +13,7 @@ void main()
     x = &i;
     y = &j;
     z = &k;
+    printf("\ndifference:%u",*y-*x);
     printf("\nOriginal address in x = %u", x);
     printf("\nOriginal address in y = %u", y);
     printf("\nOriginal address in z = %u", z);
@@ -23,10 +24,10 @@ void main()
     printf("\nNew address in y = %u",y);
     printf("\nNew address in z = %u",z);
 
-
+    
 
 }
-*/
+/*
 // subtraction of one pointer from another
 #include<stdio.h>
 void main()
@@ -36,4 +37,4 @@ void main()
     i = &arr[1];
     j = &arr[5];
     printf("%d %d",j-i,*j-*i);
-}
+}*/

@@ -1,4 +1,4 @@
-//string: it is a collection of character or group of character enclosed between doublequotes("")
+//string: it is a collection of character or group of character enclosed between double quotes("")
 // 1) there is no separate data type for string in C, it is achieve in C by using array character.
 //2) string is 1-D array of character, which is terminated by a null character '\0'.
 
